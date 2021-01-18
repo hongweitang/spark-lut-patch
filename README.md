@@ -1,4 +1,12 @@
-# spark-lut-patch
+# Spark LUT patch
+
+⚠️IMPORTANT ⚠️
+
+⚠️DISABLE COMPRESSION ON LUT TEXTURES ⚠️
+
+[Tutorial on YouTube](https://www.youtube.com/watch?v=lxF-ecbkbr4)
+
+[![Tutorial on YouTube](./demo-assets/tutorial.jpg)](https://www.youtube.com/watch?v=lxF-ecbkbr4)
 
 |      |
 | :--: |
@@ -19,7 +27,11 @@ Thanks to [Mateusz Ziemann](https://www.facebook.com/infectedwirus) for huge spe
 
 ## NOTE
 
-Texture compression settings matter. If the output looks bad, try overriding the texture compression settings for the LUTs.
+Texture compression settings matter. ALWAYS disable compression on the LUT texture settings. Some people reported that setting filtering to "none" also helped.
+
+![](./demo-assets/compression.png)
+
+![](./demo-assets/filtering.png)
 
 ## Included LUTs
 
@@ -41,14 +53,26 @@ All of Photoshop's built-in 3dl files, converted to pngs. Also some free LUTs fr
 | <img src="./textures/night_from_day.png" width="200" /> | <img src="./textures/fuji_f125_kodak_2393.png" width="200" /> | <img src="./textures/teal_orange_plus_contrast.png" width="200" /> |
 | fuji_f125_kodak_2395 | tension_green | fuji_reala_500d_kodak_2393 |
 |<img src="./textures/fuji_f125_kodak_2395.png" width="200" /> | <img src="./textures/tension_green.png" width="200" /> | <img src="./textures/fuji_reala_500d_kodak_2393.png" width="200" /> |
-| solarized | hackmanite | herderite |
-| <img src="./textures/solarized.png" width="200" /> | <img src="./textures/hackmanite.png" width="200" /> | <img src="./textures/herderite.png" width="200" /> |
+| solarize | hackmanite | herderite |
+| <img src="./textures/solarize.png" width="200" /> | <img src="./textures/hackmanite.png" width="200" /> | <img src="./textures/herderite.png" width="200" /> |
 | heulandite | hiddenite | hilutite |
 | <img src="./textures/heulandite.png" width="200" /> | <img src="./textures/hiddenite.png" width="200" /> | <img src="./textures/hilutite.png" width="200" /> |
-| howlite | hypersthene |  |
-| <img src="./textures/howlite.png" width="200" /> | <img src="./textures/hypersthene.png" width="200" /> |  |
+| howlite | hypersthene | infra-false-color |
+| <img src="./textures/howlite.png" width="200" /> | <img src="./textures/hypersthene.png" width="200" /> | <img src="./textures/infra-false-color.png" width="200" /> |
+
+## Resources
+
+Learn more stuff by watching my [Spark AR Tutorials on YouTube!](https://www.youtube.com/playlist?list=PLAZp2Vi7Gfspzyla4RrCO6BzVzYW7Lnb-)
+
+Follow me on Instagram [@positlabs](https://instagram.com/positlabs) and try out my effects!
+
+Browse my open-source [Spark AR repositories on Github!](https://github.com/search?q=user%3Apositlabs+spark)
+
+Have questions? Join the [Spark AR Community](https://www.facebook.com/groups/SparkARcommunity/) group on Facebook.
 
 
-## Effects Gallery
+## Donations
 
-If you use the patch in your effect, I'll feature it here. Just send a tryit link, icon, title, and description!
+If you used this in client projects, or simply enjoyed making effects with my open-source projects, please consider a donation or sponsorship. One-time donations can be made with PayPal. Subscriptions can be through PayPal or Github Sponsors (click the heart sponsor button at the top of the page).
+
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YGS69CHAE9EQC&source=url)
